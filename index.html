@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    
+      <div class="container">
+       <header>
+
+       
+       <div class="box">
+           <h2>JS Todo App</h2>
+      <div>
+        <input
+          type="text"
+          name="todoInput"
+          id="todoInput"
+          placeholder="Type Your Todo"
+        />
+      </div>
+      <div>
+        <button type="submit" onclick="addTask()">Add</button>
+      </div>
+
+      <div>
+        <label for="searchInput">Search:</label>
+        <input
+          type="text"
+          name="searchInput"
+          oninput="filterTask()"
+          id="searchInput"
+          placeholder="Search Your Todo"
+        />
+      </div>
+
+      <div>
+        <ul id="todoList"></ul>
+      </div>
+
+      <div>
+          <p>Total Tasks: <span id="totalTasks">0</span></p>
+          <p>Completed Tasks : <span id="completeTasks">0</span></p>
+        </div>
+        
+        <script src="./script.js"></script>
+    </div>
+</div>
+</header>
+</body>
+</html>

@@ -1,0 +1,108 @@
+*{
+
+   font-family: "Ojuju", sans-serif;
+}
+
+
+
+body {
+  background-color: rgb(132, 92, 171)
+}
+h2 {
+  color: black;
+  text-align: center;
+}
+
+div {
+  margin-top: 10px;
+  text-align: center;
+  flex:auto;
+  flex-wrap: wrap;
+  
+ 
+}
+
+label {
+  font-size: 25px;
+}
+button {
+  padding: 10px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  /* color: black; */
+  border: none;
+  border-radius: 40px;
+  border-style: dotted;
+  width: 60%;
+  flex: auto;
+  flex-wrap: wrap;
+}
+
+button:hover {
+  background-color: brown;
+  transition: 1s;
+  border-radius: 60%;
+  /* padding: 0px; */
+  font-size: 20px;
+  width: 15%;
+  border-style: dashed;
+}
+
+input[type="text"] {
+  font-size: large;
+  margin: 10px;
+  padding: 8px;
+}
+p {
+  font-size: 30px;
+  color: black;
+  margin: 3%;
+}
+span {
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  /* text-align: center; */
+}
+
+li {
+  background-color:rgb(171, 167, 167);
+  padding: 0px;
+  margin: 14px 35%;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  width: 40%;
+
+  /* text-decoration-color: black; */
+}
+
+li.completed {
+  text-decoration: line-through;
+}
+
+li:hover {
+  background-color: gray;
+}
+
+.container{
+  display: grid;
+  place-items: center;
+  border: 10px;
+  border-style:inset; 
+  margin: 10% 25% 10px 25%;
+  background :gray ;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 30px 8px;
+  
+  /* padding: 30px; */
+}
+
+header{
+  flex-basis: 10333%;
+  
+}
